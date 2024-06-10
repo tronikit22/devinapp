@@ -1,0 +1,17 @@
+name: Auto Commit Changes
+
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Commit changes
+        run: |
+          git config --global user.email "tronikit22@gmail.com"
+          git config --global user.name "tronikit22"
+          git add -A
+          git commit -m "Automatic commit of changes"
+          git push
