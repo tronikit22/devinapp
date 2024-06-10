@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a name="readme-top"></a>
 
 <!--
@@ -142,3 +143,6 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
   note         = {Accessed: ENTER THE DATE YOU ACCESSED THE PROJECT}
 }
 ```
+=======
+# devinapp
+>>>>>>> 9407ac763daf908a60aaac642ce1faa5dd5ef68d
