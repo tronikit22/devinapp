@@ -1,0 +1,29 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Set this to the branch from which you deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # You can change this as per your project requirements
+
+    steps:
+    - uses: actions/checkout@v2  # Checks-out your repository under $GITHUB_WORKSPACE
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # Specify your Node.js version here
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run build script
+      run: npm run build  # Replace this with your build command
+
+    - name: Deploy
+      run: ./deploy_script.sh  # Replace this with your deployment command
+      env:
+        CI: true
