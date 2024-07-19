@@ -2754,13 +2754,13 @@ query-tools = ["guidance (>=0.0.64,<0.0.65)", "jsonpath-ng (>=1.6.0,<2.0.0)", "l
 
 [[package]]
 name = "llama-index-embeddings-azure-openai"
-version = "0.1.9"
+version = "0.1.11"
 description = "llama-index embeddings azure openai integration"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "llama_index_embeddings_azure_openai-0.1.9-py3-none-any.whl", hash = "sha256:67c91c953e81b9b83fac8385700aa042bf5a410fdc1ac61b73ea810f0e2c313a"},
-    {file = "llama_index_embeddings_azure_openai-0.1.9.tar.gz", hash = "sha256:dcc1b5b2b37b7b249ae529731a5ed2bc7d325cb270d6d55dde889474dd997ae2"},
+    {file = "llama_index_embeddings_azure_openai-0.1.11-py3-none-any.whl", hash = "sha256:afefe55ee69934528c569ddf71fb1e9ddf2992b6c344c4c9d72a03fa8c33cf40"},
+    {file = "llama_index_embeddings_azure_openai-0.1.11.tar.gz", hash = "sha256:40a4fd9a31ba74f071739d6c8405187b66e7f584ae2f64a30316c6c7b6a25325"},
 ]
 
 [package.dependencies]
@@ -3979,6 +3979,7 @@ description = "Nvidia JIT LTO Library"
 optional = false
 python-versions = ">=3"
 files = [
+    {file = "nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:4abe7fef64914ccfa909bc2ba39739670ecc9e820c83ccc7a6ed414122599b83"},
     {file = "nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:06b3b9b25bf3f8af351d664978ca26a16d2c5127dbd53c0497e28d1fb9611d57"},
     {file = "nvidia_nvjitlink_cu12-12.4.127-py3-none-win_amd64.whl", hash = "sha256:fd9020c501d27d135f983c6d3e244b197a7ccad769e34df53a42e276b0e25fa1"},
 ]
